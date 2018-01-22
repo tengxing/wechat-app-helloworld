@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/time/time",
+    "pages/grade/grade",
+    "pages/location/location",
+    "pages/call/call"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#999",
+    "navigationBarTitleText": "SDUT",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/location/location",
+        "text": "定位模块"
+      },
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/call/call",
+        "text": "呼叫模块"
+      },
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志模块"
+      },
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/grade/grade",
+        "text": "添加模块"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
